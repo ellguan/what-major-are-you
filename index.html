@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>What Major Are You?</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway&display=swap" rel="stylesheet">
+  <link rel="icon" href="pictures/circle.png" type="image/png">
+</head>
+
+<body>
+  <div id="title">
+    <h3>created by LN <3 </h3>
+        <h1>What Major Are You?</h1>
+        <br>
+        <p>So you're a high schooler. Have you thought about what you might be doing in the future? Do you plan on going
+          to college? Well, this personality quiz is just for you! :D </p>
+        <br>
+        <br>
+        <div id="disclaimer">
+          <p><b>Disclaimer!</b></p>
+          <br>
+          <p>This quiz is <u>just for fun</u>. Answers may not be completely accurate. Everything should be
+            taken with
+            a grain of salt. Or pepper. Or paprika. That being said, the creator of this quiz hopes you have fun taking
+            it. :)</p>
+        </div>
+        <br>
+        <p>Ready to try it out?</p>
+        <br>
+        <img src="pictures/arrow.png" alt="arrow pointing down" onclick="scrollWindow('first')">
+        <br>
+  </div>
+
+  <div class="one" id="first">
+    <div class="reveal fade-right">
+      <br>
+      <h2>1. Are you...?</h2>
+
+      <button id="q1a1" onclick="scrollWindow('second')">an introvert</button>
+      <br>
+      <button id="q1a2" onclick="scrollWindow('second')">an extravert</button>
+      <br>
+      <button id="q1a3" onclick="scrollWindow('second')">somewhere in between</button>
+    </div>
+    <br>
+  </div>
+
+  <div class="two" id="second">
+    <div class="reveal fade-left">
+      <br>
+      <h2>2. What does this code do?</h2>
+
+      <div id="code">
+        <p>import delete*;</p>
+        <br>
+        <p>void all()->new::std.out;</p>
+        <br>
+        <p>crash.out = Vx();</p>
+        <p>if (Vx()==!True||False):</p>
+        <p>{ setNabla->(Domain(8000));</p>
+        <p>crash.doNot()</p>
+        <p>createNewInstances(setnabla->(Vx())) }</p>
+        <br>
+        <p>delete*</p>
+      </div>
+      <!--space here??-->
+
+      <button id="q2a1" onclick="scrollWindow('third')">nothing</button>
+      <br>
+      <button id="q2a2" onclick="scrollWindow('third')">it blows up your computer</button>
+      <br>
+      <button id="q2a3" onclick="scrollWindow('third')">prints "hello world"</button>
+      <br>
+      <button id="q2a4" onclick="scrollWindow('third')">it's a virus</button>
+      <br>
+      <button id="q2a5" onclick="scrollWindow('third')">what</button>
+    </div>
+    <br>
+  </div>
+
+  <div class="three" id="third">
+    <div class="reveal fade-right">
+      <br>
+      <h2>3. What's your dream environment?</h2>
+      <br>
+      <button id="q3a1" onclick="scrollWindow('fourth')">Small apartment in Seattle</button>
+      <br>
+      <button id="q3a2" onclick="scrollWindow('fourth')">A cozy, minimalist apartment in a big city</button>
+      <br>
+      <button id="q3a3" onclick="scrollWindow('fourth')">Sleeping</button>
+      <br>
+      <button id="q3a4" onclick="scrollWindow('fourth')">A mansion in Silicon Valley</button>
+    </div>
+    <br>
+  </div>
+
+  <div class="four" id="fourth">
+    <div class="reveal fade-left">
+      <br>
+      <h2>4. Can you easily remove the watermark off of photos?</h2>
+      <br>
+      <button id="q4a1" onclick="scrollWindow('fifth')">Yes, of course, just Photoshop it out lol</button>
+      <br>
+      <button id="q4a2" onclick="scrollWindow('fifth')">Watermarked pictures are not worth using.</button>
+      <br>
+      <button id="q4a3" onclick="scrollWindow('fifth')">No, that's illegal.</button>
+      <br>
+      <button id="q4a4" onclick="scrollWindow('fifth')">What even are these questions?</button>
+    </div>
+    <br>
+  </div>
+
+  <div class="five" id="fifth">
+    <div class="reveal fade-right">
+      <br>
+      <h2>5. An alien wants to abduct you. What do you do first?</h2>
+      <br>
+      <button id="q5a1" onclick="scrollWindow('sixth')"><b>Cry</b></button>
+      <br>
+      <button id="q5a2" onclick="scrollWindow('sixth')"><b>Call 911</b></button>
+      <br>
+      <button id="q5a3" onclick="scrollWindow('sixth')"><b>You think the police will be able to handle aliens? Just
+          beat them up with your
+          muscles.</b></button>
+    </div>
+    <br>
+  </div>
+
+  <div class="one" id="sixth">
+    <div class="reveal fade-left">
+      <br>
+      <h2>6. About how much money do you want to be making in a year in the future?</h2>
+      <br>
+      <button id="q6a1" onclick="scrollWindow('seventh')">50-70k</button>
+      <br>
+      <button id="q6a2" onclick="scrollWindow('seventh')">70-100k</button>
+      <br>
+      <button id="q6a3" onclick="scrollWindow('seventh')">100-150k</button>
+      <br>
+      <button id="q6a4" onclick="scrollWindow('seventh')">250-440k</button>
+    </div>
+    <br>
+  </div>
+
+  <div class="two" id="seventh">
+    <div class="reveal fade-right">
+      <br>
+      <h2>7. How much sleep do you get on an average day?</h2>
+      <br>
+      <button id="q7a1" onclick="scrollWindow('eighth')">Less than 4 hrs</button>
+      <br>
+      <button id="q7a2" onclick="scrollWindow('eighth')">4-7 hrs</button>
+      <br>
+      <button id="q7a3" onclick="scrollWindow('eighth')">8 hrs</button>
+      <br>
+      <button id="q7a4" onclick="scrollWindow('eighth')">9+ hrs</button>
+    </div>
+    <br>
+  </div>
+
+  <div class="three" id="eighth">
+    <div class="reveal fade-left">
+      <br>
+      <h2>8. Pick a color.</h2>
+      <br>
+      <button id="q8a1" onclick="scrollWindow('ninth')">Black/white</button>
+      <br>
+      <button id="q8a2" onclick="scrollWindow('ninth')">Pastel colors</button>
+      <br>
+      <button id="q8a3" onclick="scrollWindow('ninth')">Green/Blue</button>
+      <br>
+      <button id="q8a4" onclick="scrollWindow('ninth')">Purple/Red</button>
+    </div>
+    <br>
+  </div>
+
+  <div class="four" id="ninth">
+    <div class="reveal fade-right">
+      <br>
+      <h2>9. What is your favorite eating utensil?</h2>
+      <br>
+      <button id="q9a1" onclick="scrollWindow('tenth')">Knife</button>
+      <br>
+      <button id="q9a2" onclick="scrollWindow('tenth')">My hands</button>
+      <br>
+      <button id="q9a3" onclick="scrollWindow('tenth')">Spoon</button>
+      <br>
+      <button id="q9a4" onclick="scrollWindow('tenth')">Chopsticks</button>
+    </div>
+    <br>
+  </div>
+
+  <div class="five" id="tenth">
+    <div class="reveal fade-left">
+      <br>
+      <h2>10. Pick a word.</h2>
+      <br>
+      <button id="q10a1">pneumonia</button>
+      <br>
+      <button id="q10a2">forking</button>
+      <br>
+      <button id="q10a3">articulate</button>
+      <br>
+      <button id="q10a4">fortune</button>
+    </div>
+    <br>
+  </div>
+
+  <button id="result" style="vertical-align:middle" onclick="resultPage()"><span>Click here to see your result!
+    </span></button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
