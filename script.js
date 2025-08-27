@@ -219,16 +219,20 @@ function gd() {
 
 function resultPage() {
   if (result == "cs") {
-    location.replace("https://what-major-are-you.inevitablyellen.repl.co/cs.html");
+    window.location.href = "cs.html";
+    //location.replace("https://what-major-are-you.inevitablyellen.repl.co/cs.html");
   }
   if (result == "business") {
-    location.replace("https://what-major-are-you.inevitablyellen.repl.co/business.html");
+    window.location.href = "business.html";
+    //location.replace("https://what-major-are-you.inevitablyellen.repl.co/business.html");
   }
   if (result == "bio") {
-    location.replace("https://what-major-are-you.inevitablyellen.repl.co/bio.html");
+    window.location.href = "bio.html";
+    //location.replace("https://what-major-are-you.inevitablyellen.repl.co/bio.html");
   }
   if (result == "gd") {
-    location.replace("https://what-major-are-you.inevitablyellen.repl.co/gd.html");
+    window.location.href = "gd.html";
+    //location.replace("https://what-major-are-you.inevitablyellen.repl.co/gd.html");
   }
 }
 
